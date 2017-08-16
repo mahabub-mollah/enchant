@@ -1,0 +1,434 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==============================*/
+/*=====   Responsive css  ======*/
+/*==============================*/
+@media screen and (max-width:1366px){
+	.sec1_rghtIn span{
+		width:71.723%;
+		line-height:49px;
+		font-size:31px;
+	}
+}
+@media screen and (max-width:1279px){
+	.snglTxtBox h4{
+		font-size:18px;
+		line-height:26px;
+	}
+	.snglTxtBox p{
+		font-size:15px;
+		line-height:26px;
+	}
+	.sec5{padding:120px 0 230px}
+	.sec6{padding:100px 0 110px}
+	.sec6Txt h3{
+		font-size:40px;
+		line-height:46px;
+		margin-bottom:10px;
+	}
+	.sec6Txt h2{
+		font-size:50px;
+		line-height:60px;
+		margin-bottom:15px;
+	}
+	
+	.section1{padding:100px 0 120px}
+	.sec1_rght{padding:120px 0 0 0}
+	.sec1_rght .capA{font-size:135px}
+	.sec1_rghtIn span{
+		font-size:28px;
+		line-height:42px;
+	}
+}
+@media screen and (max-width:1023px){
+	.sec1_rght{padding-top:94px}
+	.sec1_rght .capA{
+		font-size:100px;
+		line-height:90px;
+	}
+	.sec1_rghtIn span{
+		font-size:21px;
+		line-height:32px;
+	}
+	.mediaBox{padding:100px 0}
+	.mediaItem{padding:0 6px}
+	.itemInner{padding-left:0}
+	.formInner{
+		padding:0 10px;
+		box-sizing:border-box;
+	}
+	.formSec,
+	.footerBox{padding-top:180px}
+	.copyRgt{font-size:13px}
+	.ftrIcon li{padding-left:20px}
+	.sec3_right,
+	.sec3_left{padding:100px 0}
+	.sec1_rghtIn span{
+		font-size:20px;
+		line-height:32px;
+	}
+	.sec5{padding-top:50px}
+	.itemIn h2{font-size:21px}
+	.formSec,.footerBox{padding-top:130px}
+}
+@media screen and (max-width:991px){
+	.bnrArrow{bottom:50px}
+	.sec3_right,
+	.sec3_left{
+		width:100%;
+		display:block;
+	}
+	.sec4 .col-sm-3{
+		width:50%;
+		float:left;
+	}
+	.snglTxtBox{padding:15px 0}
+	.snglContBox{margin-bottom:30px}
+	.sec6Txt h2{
+		font-size:45px;
+		line-height:50px;
+	}
+	.sec6Txt p{
+		font-size:17px;
+		letter-spacing:0;
+		line-height:30px;
+	}
+	.sec6_snglTop{height:135px}
+	.sec6_snglMid h3,
+	.sec6_snglTop h3{
+		font-size:32px;
+		line-height:36px;
+	}
+	.sec6_snglMid{height:110px}
+	.popUp{padding:40px 50px}
+	.mediaPopT{padding:50px}
+	.singhbr{
+		margin-right:0;
+		width:140px;
+	}
+	.sec5_contBox_hbrwrp{
+		margin:0;
+		width:100%;
+	}
+}
+@media screen and (min-width:768px){
+    .mainMenu{display:block !important}
+}
+@media screen and (max-width:767px){
+	.header{height:30px}
+	a.openClose{display:block}
+	.mainMenu{
+		display:none;
+		text-align:center;
+		position:absolute;
+		top:50px;
+		left:0;
+		z-index:9;
+	}
+	.mainMenu li{display:block}	
+	.mainMenu li a{	
+		margin:0;
+		color:#eee;
+		font-size:13px;
+		background-color:#49505a;
+		padding:8px 20px 8px 15px;
+		border-top:1px solid #32373e;
+		box-shadow:inset 0 1px 0 rgba(255,255,255,.1);
+	}
+	.mainMenu li:hover a,
+	.mainMenu li.current-menu-item > a{background:#28313a}
+	.sec3_content{
+		max-width:100%;
+		padding:0 15px;
+		box-sizing:border-box;
+	}
+	.sec3_right,
+	.sec3_left{
+		height:auto;
+		padding:120px 0;
+	}
+	.sec3_content{
+		top:0;
+		transform:none;
+	}
+	.sec6 .col-sm-4{
+		width:33.3333%;
+		float:left;
+		padding:0 10px;
+	}
+	.sec6_snglMid h3,
+	.sec6_snglTop h3{
+		font-size:25px;
+		line-height:32px;
+	}
+	.sec6Txt h2{font-size:40px}
+	.sec6Txt h3{
+		font-size:35px;
+		line-height:40px;
+	}
+	.sec6Txt p{line-height:24px}
+	.sec5_snglBox span{
+		font-size:18px;
+		line-height:30px;
+	}
+	.sec5{padding:120px 0 130px}
+		
+	.section1{padding:80px 0}
+	.sec1_left{
+		max-width:500px;
+		margin:0 auto;
+		padding-right:0;
+	}
+	.sec1_rght{padding-top:42px}
+	.sec1_rght .capA{
+		font-size:178px;
+		line-height:145px;
+	}
+	.sec1_rghtIn span{
+		font-size:35px;
+		line-height:42px;
+	}
+	.mediaItem{
+		width:100%;
+		padding:0;
+		margin-bottom:20px;
+	}
+	.itemInner{text-align:center}
+	.cmnBoxIn{
+		width:100%;
+		padding:0;
+	}
+	.form-control{padding:12px 15px}
+	.ftrLgo img{margin:0 auto}
+	.ftrIcon{
+		float:none;
+		text-align:center;
+	}
+	.ftrIcon li{padding:0 15px}
+	.col-sm-4.iconBox{padding-top:15px}
+	.col-sm-4.copyBox{
+		overflow:hidden;
+		text-align:center;
+	}
+	.header{background-color:transparent}
+	.sec1_rghtIn span{
+		font-size:35px;
+		line-height:50px;
+	}
+	.itemIn img{max-width:100%}
+	.sec4{padding:60px 0 40px}
+	.sec4 .titleBox{margin-bottom:40px}
+	
+    .singhbr{
+        margin-right:7px;
+        width:135px;
+    }
+    .hbrleft{padding:43px 30px;}
+	.hbrrght > h2{font-size:26px}
+}
+@media screen and (max-width:639px){
+	.bnrCont span{
+		font-size:26px;
+		line-height:35px;
+		padding-top:10px;
+	}
+	.sec3_right,
+	.sec3_left{padding:80px 0}
+	.sec4{padding:70px 0 40px}
+	.snglTxtBox h4{
+		font-size:16px;
+		line-height:24px;
+		margin-bottom:5px;
+	}
+	.snglTxtBox p{
+		font-size:14px;
+		line-height:20px;
+	}
+	.sec6{padding:65px 0}
+	.sec6 .col-sm-4{
+		float:none;
+		padding:0 30px;
+		width:100%;
+	}
+	.sec6_snglBox{padding-bottom:30px}
+	.sec6_snglMid h3,
+	.sec6_snglTop h3{
+		font-size:34px;
+		line-height:42px;
+	}
+	.sec1_rght .capA{
+		font-size:154px;
+		line-height:97px;
+	}
+	.titleBox{padding-top:36px}
+	.titleBox h2{font-size:35px}
+	.titleBox span{
+		line-height:32px;
+		font-size:28px;
+	}
+	.submitBox{max-width:260px}
+	.formSec, 
+	.footerBox{padding-top:140px}
+	.sec5{padding:40px 0 130px}
+	.artist_pop{padding:20px 30px}
+	.tickets_pop{max-width:300px}
+	.tickets_pop{padding:20px 10px}
+	.sec6Txt{padding-bottom:20px}
+	.sec6Txt a{
+		display:block;
+		font-size:20px;
+		line-height:28px;
+		margin-bottom:0;
+	}
+	.popUp{padding:10px 20px}
+	.sec1_rghtIn span{
+		width:70%;
+		font-size:25px;
+		line-height:38px;
+	}
+	.mediaPopT{padding:20px}
+	.sec5_snglBox {
+		padding: 0 10px 25px;
+		width: 100%;
+	}
+	.hbrleft {width:60%}
+	.hbrrght {width:40%}
+	.singhbr {
+		margin-right: 0;
+		width: 100%;
+	}
+	.hbrrght {padding: 25px 0}
+	.sec5_snglBox{position:relative}
+}
+@media screen and (max-width:479px){
+	.bnrCont span{
+		font-size:18px;
+		line-height:24px;
+	}
+	.sec3_content h3{
+		font-size:34px;
+		line-height:40px;
+	}
+	.sec3_content p{
+		font-size:16px;
+		line-height:28px;
+	}
+	.sec3_right,
+	.sec3_left{padding:40px 0}
+	.cmnBtn{padding:7px 15px}
+	.sec4 .col-sm-3{
+		float:none;
+		width:100%;
+	}
+	.snglContBox{margin-bottom:20px}
+	.sec4{padding:55px 0 20px}
+	.sec5_snglBox{
+		float:none;
+		padding:0 15px;
+		width:100%;
+	}
+	.sec5_imgBox{padding-bottom:5px}
+	.sec5_snglBox{margin-top:20px}
+	.sec5{padding:55px 0 45px}
+	.sec6Txt h3{
+		font-size:26px;
+		line-height:34px;
+	}
+	.sec6Txt h2{
+		font-size:31px;
+		line-height:40px;
+	}
+	.sec6Txt p{
+		font-size:14px;
+		line-height:22px;
+		margin-bottom:15px;
+	}
+	.sec6 .col-sm-4{padding:0 15px}
+	.sec6_snglTop{height:110px}
+	.sec6_snglMid h3, .sec6_snglTop h3{
+		font-size:26px;
+		line-height:30px;
+	}
+	.sec6_snglMid{height:75px}
+	.sec6{padding:40px 0}
+	
+	.sec1_rght .capA{
+		font-size:133px;
+		line-height:119px;
+	}
+	.sec1_rghtIn span{
+		width:63%;
+		font-size:18px;
+		line-height:30px;
+	}
+	.formBox h2,
+	.itemIn h2{font-size:24px}
+	.titleBox{padding-top:16px}
+	.titleBox h2{
+		line-height:40px;
+		font-size:24px
+	}
+	.titleBox span{
+		line-height:21px;
+		font-size:19px;
+	}
+	input[type="submit"]{height:40px}
+	.iconBox, 
+	.copyBox{
+		width:100%;
+		padding-top:0;
+		float:none;
+		text-align:center;
+	}
+	.ftrIcon{float:none}
+	.artist_pop{padding:20px 10px}
+	.tickets_pop{
+		max-width:100%;
+		padding:20px 0;
+	}
+	.tickets_pop p{
+		font-size:16px;
+		line-height:22px;
+	}
+	.popUp{padding:10px 10px}
+	.checkout input[type="text"]{
+		height:40px;
+		padding-top:6px;
+		padding-bottom:6px;
+	}
+	.halfLft{
+		width:100%;
+		padding-right:0;
+	}
+	.halfRgt{
+		padding-left:0;
+		width:100%;
+	}
+	.sec1_rght .capA{
+		font-size:120px;
+		line-height:125px;
+	}
+	.sec3_content h3{
+		font-size:30px;
+		line-height:40px;
+	}
+	.sec5_snglBox{
+		width:100%;
+		padding:0 10px;
+		float:none;
+	}
+	.submitBox{padding-top:20px}
+	.sec1_rght .cmnBtn{
+		padding:7px 15px;
+		font-size:15px;
+	}
+	.mediaPopT{padding:8px}
+	.hbrleft {padding: 15px 10px}
+	.singhbr {margin-bottom: 5px}
+	.singhbr h5 {
+		margin-bottom: 5px;
+		padding-bottom: 10px;
+	}
+	.hbrrght {height: 80%}
+}
